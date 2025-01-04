@@ -1,9 +1,7 @@
 .list {
   display: flex;
-  align-items: center;
-  gap: 16px;
   flex-wrap: wrap;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 10px 0;
+  justify-content: center;
+  row-gap: 24px;
+  column-gap: 24px;
 }

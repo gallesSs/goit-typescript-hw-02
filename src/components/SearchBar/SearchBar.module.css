@@ -1,17 +1,52 @@
-.header {
-  background-color: rgb(0, 0, 177);
+.box {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 5px 0;
+  margin-bottom: 20px;
+  padding: 16px 50px;
+  background-color: #ccc;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #03a9f4, #212121);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  position: sticky;
+  top: 0;
 }
-
+.logo {
+  color: azure;
+  margin-right: 20px;
+}
 .form {
-  background-color: #fff;
-  width: 900px;
-  padding: 10px 20px;
+  position: relative;
   display: flex;
-  justify-content: start;
   align-items: center;
-  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+.input {
+  padding: 5px 10px 5px 50px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  box-sizing: border-box;
+}
+.input:focus,
+.input:active {
+  outline: none;
+  box-shadow: none;
+}
+.btn {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333333de;
+}
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
+}
+.search {
+  pointer-events: none;
 }
